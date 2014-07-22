@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B419BE48197E2F5300754383 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B419BE47197E2F5300754383 /* Foundation.framework */; };
+		B419BE4A197E2F5300754383 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B419BE49197E2F5300754383 /* CoreGraphics.framework */; };
+		B419BE4C197E2F5300754383 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B419BE4B197E2F5300754383 /* UIKit.framework */; };
+		B419BE52197E2F5300754383 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B419BE50197E2F5300754383 /* InfoPlist.strings */; };
+		B419BE54197E2F5300754383 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B419BE53197E2F5300754383 /* main.m */; };
+		B419BE58197E2F5300754383 /* baikahuiAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B419BE57197E2F5300754383 /* baikahuiAppDelegate.m */; };
+		B419BE5B197E2F5300754383 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B419BE59197E2F5300754383 /* Main.storyboard */; };
+		B419BE5E197E2F5300754383 /* baikahuiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B419BE5D197E2F5300754383 /* baikahuiViewController.m */; };
+		B419BE60197E2F5300754383 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B419BE5F197E2F5300754383 /* Images.xcassets */; };
+		B419BE67197E2F5300754383 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B419BE66197E2F5300754383 /* XCTest.framework */; };
+		B419BE68197E2F5300754383 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B419BE47197E2F5300754383 /* Foundation.framework */; };
+		B419BE69197E2F5300754383 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B419BE4B197E2F5300754383 /* UIKit.framework */; };
+		B419BE71197E2F5300754383 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B419BE6F197E2F5300754383 /* InfoPlist.strings */; };
+		B419BE73197E2F5300754383 /* baikahuiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B419BE72197E2F5300754383 /* baikahuiTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B419BE6A197E2F5300754383 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B419BE3C197E2F5300754383 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B419BE43197E2F5300754383;
+			remoteInfo = baikahui;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B419BE44197E2F5300754383 /* baikahui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = baikahui.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B419BE47197E2F5300754383 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B419BE49197E2F5300754383 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B419BE4B197E2F5300754383 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B419BE4F197E2F5300754383 /* baikahui-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "baikahui-Info.plist"; sourceTree = "<group>"; };
+		B419BE51197E2F5300754383 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B419BE53197E2F5300754383 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B419BE55197E2F5300754383 /* baikahui-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "baikahui-Prefix.pch"; sourceTree = "<group>"; };
+		B419BE56197E2F5300754383 /* baikahuiAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = baikahuiAppDelegate.h; sourceTree = "<group>"; };
+		B419BE57197E2F5300754383 /* baikahuiAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = baikahuiAppDelegate.m; sourceTree = "<group>"; };
+		B419BE5A197E2F5300754383 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B419BE5C197E2F5300754383 /* baikahuiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = baikahuiViewController.h; sourceTree = "<group>"; };
+		B419BE5D197E2F5300754383 /* baikahuiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = baikahuiViewController.m; sourceTree = "<group>"; };
+		B419BE5F197E2F5300754383 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B419BE65197E2F5300754383 /* baikahuiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = baikahuiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B419BE66197E2F5300754383 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B419BE6E197E2F5300754383 /* baikahuiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "baikahuiTests-Info.plist"; sourceTree = "<group>"; };
+		B419BE70197E2F5300754383 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B419BE72197E2F5300754383 /* baikahuiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = baikahuiTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B419BE41197E2F5300754383 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B419BE4A197E2F5300754383 /* CoreGraphics.framework in Frameworks */,
+				B419BE4C197E2F5300754383 /* UIKit.framework in Frameworks */,
+				B419BE48197E2F5300754383 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B419BE62197E2F5300754383 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B419BE67197E2F5300754383 /* XCTest.framework in Frameworks */,
+				B419BE69197E2F5300754383 /* UIKit.framework in Frameworks */,
+				B419BE68197E2F5300754383 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B419BE3B197E2F5300754383 = {
+			isa = PBXGroup;
+			children = (
+				B419BE4D197E2F5300754383 /* baikahui */,
+				B419BE6C197E2F5300754383 /* baikahuiTests */,
+				B419BE46197E2F5300754383 /* Frameworks */,
+				B419BE45197E2F5300754383 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B419BE45197E2F5300754383 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B419BE44197E2F5300754383 /* baikahui.app */,
+				B419BE65197E2F5300754383 /* baikahuiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B419BE46197E2F5300754383 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B419BE47197E2F5300754383 /* Foundation.framework */,
+				B419BE49197E2F5300754383 /* CoreGraphics.framework */,
+				B419BE4B197E2F5300754383 /* UIKit.framework */,
+				B419BE66197E2F5300754383 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B419BE4D197E2F5300754383 /* baikahui */ = {
+			isa = PBXGroup;
+			children = (
+				B419BE56197E2F5300754383 /* baikahuiAppDelegate.h */,
+				B419BE57197E2F5300754383 /* baikahuiAppDelegate.m */,
+				B419BE59197E2F5300754383 /* Main.storyboard */,
+				B419BE5C197E2F5300754383 /* baikahuiViewController.h */,
+				B419BE5D197E2F5300754383 /* baikahuiViewController.m */,
+				B419BE5F197E2F5300754383 /* Images.xcassets */,
+				B419BE4E197E2F5300754383 /* Supporting Files */,
+			);
+			path = baikahui;
+			sourceTree = "<group>";
+		};
+		B419BE4E197E2F5300754383 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B419BE4F197E2F5300754383 /* baikahui-Info.plist */,
+				B419BE50197E2F5300754383 /* InfoPlist.strings */,
+				B419BE53197E2F5300754383 /* main.m */,
+				B419BE55197E2F5300754383 /* baikahui-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B419BE6C197E2F5300754383 /* baikahuiTests */ = {
+			isa = PBXGroup;
+			children = (
+				B419BE72197E2F5300754383 /* baikahuiTests.m */,
+				B419BE6D197E2F5300754383 /* Supporting Files */,
+			);
+			path = baikahuiTests;
+			sourceTree = "<group>";
+		};
+		B419BE6D197E2F5300754383 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B419BE6E197E2F5300754383 /* baikahuiTests-Info.plist */,
+				B419BE6F197E2F5300754383 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B419BE43197E2F5300754383 /* baikahui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B419BE76197E2F5300754383 /* Build configuration list for PBXNativeTarget "baikahui" */;
+			buildPhases = (
+				B419BE40197E2F5300754383 /* Sources */,
+				B419BE41197E2F5300754383 /* Frameworks */,
+				B419BE42197E2F5300754383 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = baikahui;
+			productName = baikahui;
+			productReference = B419BE44197E2F5300754383 /* baikahui.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B419BE64197E2F5300754383 /* baikahuiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B419BE79197E2F5300754383 /* Build configuration list for PBXNativeTarget "baikahuiTests" */;
+			buildPhases = (
+				B419BE61197E2F5300754383 /* Sources */,
+				B419BE62197E2F5300754383 /* Frameworks */,
+				B419BE63197E2F5300754383 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B419BE6B197E2F5300754383 /* PBXTargetDependency */,
+			);
+			name = baikahuiTests;
+			productName = baikahuiTests;
+			productReference = B419BE65197E2F5300754383 /* baikahuiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B419BE3C197E2F5300754383 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = baikahui;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "China Express Holdings";
+				TargetAttributes = {
+					B419BE64197E2F5300754383 = {
+						TestTargetID = B419BE43197E2F5300754383;
+					};
+				};
+			};
+			buildConfigurationList = B419BE3F197E2F5300754383 /* Build configuration list for PBXProject "baikahui" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B419BE3B197E2F5300754383;
+			productRefGroup = B419BE45197E2F5300754383 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B419BE43197E2F5300754383 /* baikahui */,
+				B419BE64197E2F5300754383 /* baikahuiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B419BE42197E2F5300754383 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B419BE60197E2F5300754383 /* Images.xcassets in Resources */,
+				B419BE52197E2F5300754383 /* InfoPlist.strings in Resources */,
+				B419BE5B197E2F5300754383 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B419BE63197E2F5300754383 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B419BE71197E2F5300754383 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B419BE40197E2F5300754383 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B419BE58197E2F5300754383 /* baikahuiAppDelegate.m in Sources */,
+				B419BE5E197E2F5300754383 /* baikahuiViewController.m in Sources */,
+				B419BE54197E2F5300754383 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B419BE61197E2F5300754383 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B419BE73197E2F5300754383 /* baikahuiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B419BE6B197E2F5300754383 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B419BE43197E2F5300754383 /* baikahui */;
+			targetProxy = B419BE6A197E2F5300754383 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B419BE50197E2F5300754383 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B419BE51197E2F5300754383 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B419BE59197E2F5300754383 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B419BE5A197E2F5300754383 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B419BE6F197E2F5300754383 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B419BE70197E2F5300754383 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B419BE74197E2F5300754383 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B419BE75197E2F5300754383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B419BE77197E2F5300754383 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "baikahui/baikahui-Prefix.pch";
+				INFOPLIST_FILE = "baikahui/baikahui-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B419BE78197E2F5300754383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "baikahui/baikahui-Prefix.pch";
+				INFOPLIST_FILE = "baikahui/baikahui-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B419BE7A197E2F5300754383 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/baikahui.app/baikahui";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "baikahui/baikahui-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "baikahuiTests/baikahuiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B419BE7B197E2F5300754383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/baikahui.app/baikahui";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "baikahui/baikahui-Prefix.pch";
+				INFOPLIST_FILE = "baikahuiTests/baikahuiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B419BE3F197E2F5300754383 /* Build configuration list for PBXProject "baikahui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B419BE74197E2F5300754383 /* Debug */,
+				B419BE75197E2F5300754383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B419BE76197E2F5300754383 /* Build configuration list for PBXNativeTarget "baikahui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B419BE77197E2F5300754383 /* Debug */,
+				B419BE78197E2F5300754383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B419BE79197E2F5300754383 /* Build configuration list for PBXNativeTarget "baikahuiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B419BE7A197E2F5300754383 /* Debug */,
+				B419BE7B197E2F5300754383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B419BE3C197E2F5300754383 /* Project object */;
+}
